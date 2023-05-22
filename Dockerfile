@@ -1,4 +1,4 @@
-FROM node:13-slim
+FROM node:16.13-slim
 
 LABEL "com.github.actions.name"="vue-s3-deployer"
 LABEL "com.github.actions.description"="Github action for deploy Vue app to Amazon s3 bucket. "
