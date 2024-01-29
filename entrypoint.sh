@@ -5,7 +5,8 @@ cd $INPUT_APP_SOURCE_CODE
 
 #Install dependencies
 echo "Installing dependencies"
-npm install > /dev/null 2>&1
+#npm install > /dev/null 2>&1
+npm install
 
 #Build application
 echo "Building application"
