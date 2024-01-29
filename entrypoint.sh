@@ -3,6 +3,8 @@
 #Move to app source code
 cd $INPUT_APP_SOURCE_CODE
 
+npm config set strict-ssl false
+
 #Install dependencies
 echo "Installing dependencies"
 #npm install > /dev/null 2>&1
